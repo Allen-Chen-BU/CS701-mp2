@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: calc(2px + 1vw);
+}
+
+@media screen and (max-width: 750px) {
+    * {
+        font-size: calc(2px + 4vw);
+    }
+}
